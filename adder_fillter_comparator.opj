@@ -1,0 +1,177 @@
+(ExpressProject "Adder_fillter_Comparator"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\library\pspice\analog.olb"
+        (DisplayName ".\library\pspice\analog.olb")
+        (Type "Schematic Library"))
+      (File ".\library\pspice\breakout.olb"
+        (DisplayName ".\library\pspice\breakout.olb")
+        (Type "Schematic Library"))
+      (File ".\library\pspice\source.olb"
+        (DisplayName ".\library\pspice\source.olb")
+        (Type "Schematic Library"))
+      (File ".\library\pspice\sourcstm.olb"
+        (DisplayName ".\library\pspice\sourcstm.olb")
+        (Type "Schematic Library"))
+      (File ".\library\pspice\special.olb"
+        (DisplayName ".\library\pspice\special.olb")
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\adder_fillter_comparator.DSN"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "1")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "TRUE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (RootChangedForceReNetlist "x"))
+  (Folder "Outputs"
+    (File ".\adder_fillter_comparator-PSpiceFiles\SCHEMATIC1\SCHEMATIC1.net"
+      (Type "Report")
+      (DisplayName
+         ".\adder_fillter_comparator-PSpiceFiles\SCHEMATIC1\SCHEMATIC1.net")))
+  (Folder "PSpice Resources"
+    (Folder "Model Libraries")
+    (Folder "Stimulus Files")
+    (Folder "Include Files")
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\adder_fillter_comparator-pspicefiles\schematic1\schematic1.sim"
+        (DisplayName "SCHEMATIC1-Schematic1")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\adder_fillter_comparator-pspicefiles\schematic1\schematic2.sim"
+        (DisplayName "SCHEMATIC1-schematic2")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\adder_fillter_comparator-pspicefiles\schematic1\bias.sim"
+        (DisplayName "SCHEMATIC1-bias")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\adder_fillter_comparator-pspicefiles\schematic1\new.sim"
+        (DisplayName "SCHEMATIC1-New")
+        (Type "PSpice Profile"))
+      (ActiveProfile
+         ".\adder_fillter_comparator-pspicefiles\schematic1\schematic2.sim")))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\DATACONV.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\DATACONV.OLB")
+      (DeviceIndex "0"))
+    (VAC
+      (FullPartName "VAC.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (LM324
+      (FullPartName "LM324.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\EVAL.OLB")
+      (DeviceIndex "2"))
+    (GND
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VPULSE
+      (FullPartName "VPULSE.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (VSIN
+      (FullPartName "VSIN.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (L
+      (FullPartName "L.Normal")
+      (LibraryName "..\..\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (VSTIM
+      (FullPartName "VSTIM.Normal")
+      (LibraryName "..\..\LIBRARY\PSPICE\SOURCSTM.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory
+     "C:\Cadence\SPB_16.6\tools\capture\library\pspice")
+  (MPSSessionName "silicon")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\adder_fillter_comparator.DSN")
+      (Path "Design Resources" ".\adder_fillter_comparator.DSN" "SCHEMATIC1")
+      (Path "Design Resources" ".\adder_fillter_comparator.DSN" "SCHEMATIC2")
+      (Path "Outputs"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -13 -58 0 262 0 816"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -13 -58 392 2305 392 1279")
+        (Scroll "-108 0")
+        (Zoom "167")
+        (Occurrence "/"))
+      (Path "C:\USERS\SILICON\DESKTOP\1\ADDER_FILLTER_COMPARATOR.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "adder"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -13 -58 196 2109 196 1083")
+        (Scroll "-108 0")
+        (Zoom "167")
+        (Occurrence "/"))
+      (Path "C:\USERS\SILICON\DESKTOP\1\ADDER_FILLTER_COMPARATOR.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "filter"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -13 -58 245 2158 245 1132")
+        (Scroll "-99 0")
+        (Zoom "169")
+        (Occurrence "/"))
+      (Path "C:\USERS\SILICON\DESKTOP\1\ADDER_FILLTER_COMPARATOR.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "Comparator"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -13 -58 343 2256 343 1230")
+        (Scroll "-108 0")
+        (Zoom "167")
+        (Occurrence "/"))
+      (Path "C:\USERS\SILICON\DESKTOP\1\ADDER_FILLTER_COMPARATOR.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "Project"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -13 -58 0 1913 0 887")
+        (Scroll "-99 0")
+        (Zoom "169")
+        (Occurrence "/"))
+      (Path "C:\USERS\SILICON\DESKTOP\1\ADDER_FILLTER_COMPARATOR.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "1-order_filter"))))
